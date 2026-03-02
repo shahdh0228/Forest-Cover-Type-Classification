@@ -6,7 +6,6 @@ This project focuses on predicting forest cover types using cartographic and env
 
 The objective is to build and evaluate multi-class classification models capable of accurately identifying forest cover categories based on geographical attributes.
 
----
 
 ## 🎯 Problem Statement
 
@@ -14,7 +13,6 @@ Given environmental and cartographic features such as elevation, slope, soil typ
 
 This is a multi-class classification problem involving large-scale structured tabular data.
 
----
 
 ## 📊 Dataset Information
 
@@ -30,7 +28,6 @@ The dataset contains:
 
 No missing values were present.
 
----
 
 ## ⚙️ Methodology
 
@@ -50,7 +47,6 @@ No missing values were present.
 - Confusion Matrix
 - Cross-Validation Accuracy (CV)
 
----
 
 ## 📈 Results Summary
 
@@ -64,13 +60,11 @@ After hyperparameter tuning, XGBoost improved significantly from 84% to 89.53%. 
 
 Both tree-based ensemble methods demonstrated strong effectiveness for this dataset.
 
----
 
 ## 🔍 Feature Importance
 
 Random Forest and XGBoost feature importance analysis revealed that geographic elevation and distance-based features significantly influence forest cover prediction.
 
----
 
 ## 🛠️ Technologies Used
 
@@ -82,7 +76,6 @@ Random Forest and XGBoost feature importance analysis revealed that geographic e
 - Seaborn
 - Jupyter Notebook
 
----
 
 ## 🚀 Key Learning Outcomes
 
@@ -93,7 +86,3 @@ Random Forest and XGBoost feature importance analysis revealed that geographic e
 - Model comparison and performance analysis
 - Confusion matrix interpretation
 - Feature importance analysis
-
----
-
-## 📂 Repository Structure
